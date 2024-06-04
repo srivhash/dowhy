@@ -71,7 +71,7 @@ def parse_args():
 def main():
     args = parse_args()
     os.makedirs(args.out_path, exist_ok=True) # creates the output directory if it does not exist already
-    print(args.method)
+    # print(args.method)
     # check which method is used for anomaly detection
     if args.method == "baseline":
         import baseline_anomaly_traversal
