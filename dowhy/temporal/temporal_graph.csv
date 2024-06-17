@@ -1,4 +1,4 @@
-node1,node2,weight
+node1,node2,time_lag
 1,2,4
 2,3,5
 4,5,1
